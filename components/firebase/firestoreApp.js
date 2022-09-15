@@ -17,15 +17,7 @@ import { userHandler } from '../../utils/utils'
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: 'AIzaSyCX-zgXeBZc2EBdB7FRTAno617LmkGQhYc',
-  authDomain: 'moon-ayvalik.firebaseapp.com',
-  projectId: 'moon-ayvalik',
-  storageBucket: 'moon-ayvalik.appspot.com',
-  messagingSenderId: '972762687173',
-  appId: '1:972762687173:web:37612a555d866cbeef72ac',
-  measurementId: 'G-V6MM1GX982',
-}
+const firebaseConfig = {}
 const app = initializeApp(firebaseConfig)
 const auth = getAuth()
 
